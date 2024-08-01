@@ -1,0 +1,158 @@
+
+.test {
+    color: blue;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+
+
+.center-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* our code */
+
+
+body, 
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, 
+body {
+    min-width: 400px;
+}
+body, 
+input, 
+button {
+    font-size: 14px;
+    font-family: Arial, Noto Naskh Arabic UI, sans-serif;
+    color: var(--COEmY);
+}
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.profile-pic {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+}
+
+.search-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.mic,
+.camera{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.2rem;
+}
+
+.google-logo{
+    width: 20rem;
+    height: 5rem;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.search-form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5f6368;
+    gap: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+}
+
+.search-form label {
+    display: none;
+
+}
+
+.search-form input {
+    width: 27rem;
+    padding: 0.5rem ;
+    border: none;
+    outline: none;
+}
+
+.search-form button {
+    background-color:rgb(94, 86, 86);
+    border: 1px solid rgb(94, 86, 86);
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, Noto Naskh Arabic UI, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    margin-top: 15rem;
+
+}
+.bottom-section a {
+    margin: 0.1rem;
+    
+}
+
